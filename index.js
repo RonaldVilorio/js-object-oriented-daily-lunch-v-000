@@ -15,6 +15,9 @@ class Neighborhood{
   customers(){
     return store.customers.filter(customer =>{return customer})
   }
+  meals(){
+    
+  }
 }
 
 let mealId = 0
