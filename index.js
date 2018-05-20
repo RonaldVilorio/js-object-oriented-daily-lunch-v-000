@@ -16,7 +16,7 @@ class Neighborhood{
     return store.customers.filter(customer =>{return customer})
   }
   meals(){
-    
+    return store.meals.filter(meal =>{return meal})
   }
 }
 
